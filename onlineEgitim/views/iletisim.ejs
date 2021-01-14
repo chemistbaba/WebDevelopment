@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+<%- include("header") -%>
+<div class="container">
+
+
+<div class="row">
+  <div class="col-6">
+    <img class="iletisim pr-4 pl-0 py-4 mt-2" src="<%= resimLink %>" alt="">
+  </div>
+  <div class="col-6 p-4 ">
+    <h2 class="pt-2">ONLİNE EĞİTİM AKADEMİSİ</h2>
+    <hr>
+    <h4 class="pt-2 d-inline">Adres : <%= adres %></h4>
+    <h4 class="pt-3">Telefon : <%= telno %></h4>
+    <h4 class="pt-3">E-Mail : <%= email %></h4>
+
+  </div>
+</div>
+</div>
+
+<%- include("footer") -%>
+  </body>
+</html>

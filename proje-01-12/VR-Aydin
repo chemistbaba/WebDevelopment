@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ortakproje2</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- index.html'e css klasörünün içindeki style.css dosyasını tanıtıyoruz -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JQuery Script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <!--header baslaginc bolumu-->
+  <section id="header">
+    <div class="container-fluid ">
+      <div class="row d-flex justify-content: center align-items: center">
+        <div class="col-lg-6 col-md-6 sm-12 d-flex ">
+          <a href="#"><img src="/Users/mac/Desktop/web Development/Ortakproje2/resim/logo (2).png" alt=""></a>
+          <input type="search " placeholder=" "><i class="fas fa-search text-white mt-4 ml-3 "></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--header bittis bolumu-->
+  <!--Body Section bolumu baslangici-->
+  <section id="body" class="body position: relative">
+    <div class="container col-lg-12 col-md-12 col-sm-12">
+      <div class="kutu1">
+      </div>
+      <div class="kutu2  ">
+      </div>
+      <div class="baloncuk1">
+      </div>
+      <div class="baloncuk2">
+      </div>
+      <div class="baloncuk3">
+      </div>
+      <div class="baloncuk4">
+      </div>
+      <div class="baloncuk5">
+      </div>
+      <div class="baloncuk6">
+      </div>
+      ​<div class="baloncuk7">
+      </div>
+      ​<div class="baloncuk8">
+        ​</div>
+    </div>
+
+  </section>
+  <!--Body Section bolumu bittis-->
+  <!--Content Section bolumu baslangici-->
+  <section id="Content-bolumu" class="content">
+    <div class="col-md-12 col-sm-12">
+      <div class="Content">
+        <img class="position: relative" src="/Users/mac/Desktop/web Development/Ortakproje2/resim/fotograf.png" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col col-md-4 col-sm-12">
+        <ul class="menu">
+          <li class="m-header text-white pt-5">Gear VR</li>
+          <a href="#">
+            <li class="mt-1 pt-3 text-secondary">Design</li>
+          </a>
+          <a href="#">
+            <li class=" pt-3 text-secondary">Display</li>
+          </a>
+          <a href="#">
+            <li class=" pt-3 text-secondary">Experience</li>
+          </a>
+          <a href="#">
+            <li class=" pt-3 text-secondary">Spec</li>
+          </a>
+          <a href="#">
+            <li class=" pt-3 text-secondary">Gallery</li>
+          </a>
+        </ul>
+      </div>
+      <div class="find-out text-center font-weight-bold">
+        <a href="https://www.facebook.com/ISHIKRONAKI.OFFICIAL/" target="_blank"><span class="f-text ">Find out more</span></a><i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="GEAR-VR text-white">
+        ​<span>GEAR VR</span>
+        <p>It's easy to get lost in the world of <br>
+          virtual reality beacuse the Gear VR<br>
+          is engineerd to feel lighter. </p>
+      </div>
+    </div>
+  </section>
+  <!--Content Section bolumu bittis-->
+  <!-- footer bolumu baslangic-->
+  <section id="footer ">
+    <div class="container-fluid-linkler">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <a class="icon  text-white ml-4  " href="https://twitter.com/" target="_blank"><i class="fab fa-twitter pt-5"></i></a>
+          <a class="icon text-white ml-4 " href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook-f pt-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer bolumu bittis-->
+</body>
+
+</html>

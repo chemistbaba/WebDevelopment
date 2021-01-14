@@ -1,0 +1,71 @@
+/*section navbar1*/
+.top-bar {
+  background-color: #2C3E50;
+  color: #fff !important;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  margin-left: 200px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.resim {
+  width: 400px;
+  height: 300px;
+  border-radius: 40px;
+  padding: 7%;
+}
+
+.text1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #2C3E50;
+  padding-top: 50px;
+}
+
+.text-tech{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+  padding-top: 50px;
+}
+.profil {
+  background-color: #1ABC9C;
+}
+
+.profil img {
+  width: 25%;
+}
+
+.line1 {
+  width: 115px;
+  height: 5px;
+  background-color: #2C3E50;
+  border-radius: 1rem;
+}
+
+.line2 {
+  width: 115px;
+  height: 5px;
+  background-color: #2C3E50;
+  border-radius: 1rem;
+}
+
+.star{
+  color: #fff;
+}

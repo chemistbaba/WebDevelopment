@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+
+
+</head>
+
+<body>
+  <section id="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-flex align-items-center">
+          <a href="Home"><img class="logo ml-4 mt-2" src="images\logo (2).png" alt=""></a>
+
+          <div class="searchbutonu">
+            <nav class="navbar navbar-light d-flex justify-content-center">
+              <form class="form-inline ">
+                <input class="form-control bg-transparent border-0" type="search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search text-white"></i></button>
+              </form>
+            </nav>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="bodykismi">
+    <div class="row">
+      <div class="col d-flex text-white">
+        <div class="color">
+          <h1>Gear VR</h1><br>
+        </div>
+        <div class="col">
+          
+        </div>
+        <span>Design</span><br>
+        <span>Display</span><br>
+        <span>Experience</span><br>
+        <span>Spec</span><br>
+        <span>Gallery</span>
+      </div>
+      <div class="col d-flex">
+        <div class="container1 d-flex align-items-center justify-content-center">
+          <div class="container2 d-flex"> </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- footer bolumu baslangic-->
+  <section id="footer">
+    <div class="container-fluid altkisim">
+      <a class="icon ml-5 mr-4 text-white" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter pb-3"></i></a>
+      <a class="icon text-white" href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+
+  </section>
+  <!-- footer bolumu baslangic-->
+
+</body>
+
+</html>

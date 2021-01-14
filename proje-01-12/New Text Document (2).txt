@@ -1,0 +1,36 @@
+body {
+  background-color: #160C6E;
+}
+
+.logo {
+  width: 50px;
+}
+
+.searchbutonu{
+  position: absolute;
+  right:0;
+}
+.bodykismi{
+  display: inline-block;
+}
+.container1 {
+  width: 700px;
+  height: 700px;
+  border-radius: 500px;
+  background-color: #3F21D0;
+  margin: 0 auto;
+  position: relative;
+  top: -80px;
+  bottom: 200px;
+}
+
+.container2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 360px;
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+}
+.altkisim{
+  position: absolute;
+  bottom:0;
+}

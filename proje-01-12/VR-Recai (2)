@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+​
+
+<head>
+  <meta charset="utf-8">
+  <title>Grup3-2 Calisma-2</title>
+  <!--  Iconlar icin-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- Css styles-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JQuery Script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  ​
+  <!-- index.html'e js klasörünün içindeki bootstrap.js dosyasını tanıtıyoruz -->
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+</head>
+​
+
+<body>
+  <!-- Header baslangic -->
+  <section id="header" class="header">
+    <div class="container-fluid">
+      <div class="row r-l-padding">
+        <div class="logo-container col-lg-6 col-md-6 col-sm-12">
+          <a href="#"><img class="logo-img" src="img\logo.png" alt="Logo"></a>
+        </div>
+        <div class="searchbar col-lg-6 col-md-6 col-sm-12  d-flex justify-content-end">
+          <form class="form-inline">
+            <input class="form-control bg-transparent border-0" type="search" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search text-white"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </section>
+  <!-- Header bitis -->
+
+  <!-- Body baslangic -->
+  <section id="body" class="body">
+    <div class="container col-lg-12 col-md-12 col-sm-12">
+      <div class="orange-circle col-lg-7 col-md-7 col-sm-7">
+        <img src="img\gear-vr.png" alt="Gear-VR">
+      </div>
+    </div>
+    <div class="kabarcik-1">
+
+    </div>
+    <div class="kabarcik-2">
+
+    </div>
+    <div class="kabarcik-3">
+
+    </div>
+    <div class="kabarcik-4">
+
+    </div>
+    <div class="kabarcik-5">
+
+    </div>
+    <div class="kabarcik-6">
+
+    </div>
+    <div class="kabarcik-7">
+
+    </div>
+    <div class="kabarcik-8">
+
+    </div>
+  </section>
+  <!-- Body bitis -->
+
+  <!-- Content baslangic -->
+  <section id="content" class="content">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-between">
+        <div class="left-menu col-md-6 col-sm-12">
+          <ul class="menu">
+            <li class="menu-header pt-5">Gear VR</li>
+            <li class="pt-3"><a href="#">Design</a></li>
+            <li class="pt-3"><a href="#">Display</a></li>
+            <li class="pt-3"><a href="#">Experience</a></li>
+            <li class="pt-3"><a href="#">Spec</a></li>
+            <li class="pt-3"><a href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="promo col-md-6 col-sm-12">
+          <p class="big-text text-white text-right">GEAR VR</p>
+          <p class="info-text text-white text-right font-weight-bold">
+            It's easy to get lost in the world of <br>
+            virtual reality beacuse the Gear VR<br>
+            is engineerd to feel lighter. </p>
+          <div class="find-out">
+            <a href="#">Find out more</a> <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Content bitis -->
+
+  <!-- Footer baslangic -->
+  <section id="footer" class="footer">
+    <div class="container-fluid">
+      <div class="col-md-12 col-sm-12">
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter pb-3"></i></a>
+        <a href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook-f pl-3"></i></a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer bitis -->
+</body>
+
+
+</html>

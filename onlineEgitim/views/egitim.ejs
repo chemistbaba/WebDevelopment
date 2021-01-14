@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= egitimAdi %></title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+    <%- include("header") -%>
+
+    <div class="container pt-4">
+      <div class="row">
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <img src="<%= fotoLink %>" alt="" >
+        </div>
+        <div class="col-8 pl-5">
+            <div class="text-center">
+              <h3><%= egitimAdi %></h3>
+              <h5 class="text-danger"> <%= egitmen %> </h5>
+            </div>
+            <hr>
+            <div class="row text-center">
+              <div class="col-6">
+                <h5><i class="fas fa-calendar-day pr-2"></i>Eğitim Tarihi</h5>
+                <hr>
+                <h6 class="mb-4 text-danger"><%=tarih%></h6>
+
+                <h5><i class="fas fa-calendar-alt pr-2"></i>Eğitim Süresi</h5>
+                <hr>
+                <h6 class="mb-2 text-danger"><%=sure%></h6>
+
+              </div>
+              <div class="col-6">
+                <h5 ><i class="fas fa-clock pr-2"></i>Eğitim Zamanı</h5>
+                <hr>
+                <h6 class="mb-4 text-danger"><%=zaman%></h6>
+
+                <h5><i class="fas fa-tag pr-2"></i>Eğitim Ücreti</h5>
+                <hr>
+                <h6 class="mb-2 text-danger"><%=fiyat%></h6>
+
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container mt-4">
+      <div class="alert alert-secondary" role="alert">
+        <p class="fs-3 font-weight-bold ">Eğitim İçeriği</p>
+        <p><%=icerik%></p>
+      </div>
+
+      <div class="container mt-4 pl-0 ml-0">
+        <div class="row d-flex justify-content-between">
+          <% for (let i=0; i<tumEgitimler.length; i++ ) { %>
+
+          <a href="/egitim/<%=tumEgitimler[i].egitimAdi %>/<%=tumEgitimler[i].index%>">
+          <div class="col-2">
+            <div class="card" style="width: 18rem;">
+              <img src="<%= tumEgitimler[i].fotoLink %>" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h6 class="card-title"><%= tumEgitimler[i].egitimAdi %></h6>
+                <a href="/kayit"  class="btn btn-danger btn-sm">Kayıt ol</a>
+              </div>
+            </div>
+          </div> </a>
+        <% } %>
+        </div>
+      </div>
+    </div>
+
+    <%- include("footer") -%>
+  </body>
+</html>

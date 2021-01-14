@@ -1,0 +1,33 @@
+:root {
+  --ana-renk: blue;
+  --baslik-boyut: 1.8rem;
+}
+
+body {
+  background-color: #f1faee;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--ana-renk) !important;
+  font-weight: bold;
+  font-size: var(--baslik-boyut);
+}
+
+.populer-baslik {
+  background-color: var(--ana-renk);
+  color: white;
+}
+
+.ekonomi {
+  border-left: 10px var(--ana-renk) solid;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+    background-color: white;
+}
+
+.card-img-top {
+  height: 180px
+}

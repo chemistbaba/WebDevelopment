@@ -1,0 +1,20 @@
+body{
+  background-color: #ffb6b9;
+}
+
+.profile{
+  background-color: #fff5a5;
+margin: 10px 150px;
+}
+
+.background{
+  background-color: #a1de93;
+  width: 600px;
+  height:200px;
+}
+
+.hobbies{
+  background-color: #ff847b;
+  width: 600px;
+  height: 200px;
+}

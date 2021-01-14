@@ -1,0 +1,209 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #160C6E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*header baslangici bolumu*/
+.container-fluid img {
+  position: relative;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.container-fluid input {
+  margin-left: 65rem;
+  margin-top: 1rem;
+  border-style: none;
+  background-color: #160C6E;
+}
+
+.container-fluid input:hover {
+  background-color: white;
+}
+
+/*header bittis bolumu*/
+/*Body Section bolumu baslaginc*/
+
+
+.kutu1 {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  margin-left: 24rem;
+  position: absolute;
+
+  z-index: 2;
+  margin-top: 4rem;
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+}
+
+.kutu2 {
+  height: 48rem;
+  width: 48rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15rem;
+  margin-top: -6rem;
+  margin-bottom: 0rem;
+  background-color: #3F21D0;
+}
+
+.baloncuk1 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 18rem;
+  margin-top: 2rem;
+}
+
+.baloncuk2 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 48rem;
+  margin-top: 0.8rem;
+  z-index: 2
+}
+
+.baloncuk3 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 70rem;
+  margin-top: 2rem;
+}
+
+.baloncuk4 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 22rem;
+  margin-top: 15rem;
+  z-index: 2
+}
+
+.baloncuk5 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 47rem;
+  margin-top: 29rem;
+  z-index: 2;
+}
+
+.baloncuk6 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 20rem;
+  margin-top: 33rem;
+  z-index: 2;
+}
+
+.baloncuk7 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 51rem;
+  margin-top: 33rem;
+  z-index: 2;
+}
+
+.baloncuk8 {
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 74rem;
+  margin-top: 34rem;
+}
+
+/*Body Section bolumu bittis*/
+/*Content Section bolumu baslangici*/
+.Content img {
+  position: absolute;
+  height: 33rem;
+  margin-left: 21rem;
+  margin-top: 0.5rem;
+  z-index: 2
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.row ul {
+  margin-top: 10rem;
+}
+
+.GEAR-VR {
+  position: relative;
+  margin-top: 11rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  z-index: 2;
+}
+
+.GEAR-VR span {
+  position: relative;
+  font-size: 6rem;
+  margin-right: 15rem;
+  margin-bottom: 7rem;
+}
+
+.GEAR-VR p {
+  position: relative;
+  margin-left: 13rem;
+}
+
+.find-out {
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  border-radius: 50px;
+  position: absolute;
+  top: 75%;
+  margin-left: 70%;
+  width: 11%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  box-shadow: 2px 3px 4px #000;
+  z-index: 2;
+}
+
+.find-out a,
+.fa-arrow-right {
+  color: #fff !important;
+  ​
+}
+
+.find-out a:hover {
+  color: #160C6E !important;
+  text-decoration: none !important;
+}
+
+/*Content Section bolumu baslangici*/
+.container-fluid-linkler a {
+  margin-top: 5rem;
+}
+.container-fluid-linkler:hover a{
+  background-color: #FF602C
+}

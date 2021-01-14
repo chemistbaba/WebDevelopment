@@ -1,0 +1,208 @@
+/* Google Font ve body */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #160C6E;
+}
+p{
+  font-size: 0.8em;
+}
+/* Ortak kullanim css kodlari */
+.r-l-padding{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+/* Header Css kodlari */
+.logo-img{
+  width:10%;
+}
+
+/* Body Css kodlari */
+.body{
+  position: relative;
+  top: -7em;
+  z-index: -1;
+}
+.body .container{ /*Mavi cember burda olusturuldu*/
+  width: 53em;
+  height: 53em;
+  border-radius: 50%;
+  background-color: #3F21D0;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+/*Lacivert turuncu daireler*/
+.orange-circle{
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  position: relative;
+}
+.orange-circle img{
+  width: 125%;
+  position: relative;
+  right: 13%;
+  bottom: 4%;
+}
+/* Kabarciklar */
+.kabarcik-1,.kabarcik-2,.kabarcik-3,.kabarcik-4,
+.kabarcik-5,.kabarcik-6,.kabarcik-7,.kabarcik-8{
+  border-radius: 50%;
+  border: 0.1em solid #fff;
+  position: absolute;
+}
+.kabarcik-1{
+  width: 2em;
+  height: 2em;
+  left: 28%;
+  top: 14%;
+}
+.kabarcik-2{
+  width: 0.8em;
+  height: 0.8em;
+  left: 59%;
+  top: 18%;
+}
+.kabarcik-3{
+  width: 1.2em;
+  height: 1.2em;
+  left: 75%;
+  top: 19%;
+}
+.kabarcik-4{
+  width: 1.2em;
+  height: 1.2em;
+  left: 31%;
+  top: 40%;
+}
+.kabarcik-5{
+  width: 0.8em;
+  height: 0.8em;
+  left: 54%;
+  top: 70%;
+}
+.kabarcik-6{
+  width: 2em;
+  height: 2em;
+  left: 28.7%;
+  top: 83%;
+}
+.kabarcik-7{
+  width: 1.2em;
+  height: 1.2em;
+  left: 60%;
+  top: 79%;
+}
+.kabarcik-8{
+  width: 1.2em;
+  height: 1.2em;
+  left: 78%;
+  top: 82%;
+}
+/* Content kismi */
+/************************************************
+**************************************************
+/* Content kismini position ile yukari aldik */
+.content{
+  position: absolute;
+  width:75%;
+  top: 32%;
+  left: 10%;
+
+}
+/*Menu icin ayrilan kisim */
+li,
+li a{
+  list-style-type: none;
+  color: #98acf8!important;
+  font-weight: 500;
+}
+li a:hover{
+  color: #fff !important;
+  text-decoration: none ;
+}
+.menu-header{
+  color: #fff!important;
+  font-size: 1.2em;
+}
+/************************************************
+**************************************************
+Menu icin ayrilan kisim  sonu*/
+
+/************************************************
+**************************************************
+Promo (yani reklam) icin ayrilan kisim */
+.big-text{/*GEAR VR*/
+  font-weight: 900;
+  font-size: 5.6em;
+}
+.find-out {
+  background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8em;
+  box-shadow: 1px 1px 1px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.find-out a,
+.fa-arrow-right{
+  color: #fff ;
+  padding-left: 5%;
+​
+}
+.find-out a:hover{
+  color: #98acf8 ;
+  text-decoration: none ;
+}
+
+/* Footer css kodlari */
+.footer{
+  position: absolute;
+  top: 90%;
+  left: 12%;
+}
+.footer a{
+  color: #fff;
+}
+.footer a:hover{
+  color: #98acf8;
+}
+
+
+/* Media icin ayrilan alan */
+
+/*Content kismi icin media*/
+
+/*minimum genişlik 1024px ise çalışır*/
+@media (min-width: 1024px) {
+  .find-out {
+    width: 30%!important;
+    height: 18%!important;
+    margin-left: 70%!important;
+  }
+}
+/*maximum genişlik 1023 ise çalışır*/
+@media (max-width: 1023px) {
+  .content{
+    position: absolute;
+    width:80%;
+    top: 18%;
+  }
+
+.find-out {
+  width: 45%;
+  height: 15%;
+  margin-left: 53%
+
+}
+.find-out a,
+.fa-arrow-right{
+  color: #fff ;
+  padding-left: 3%;
+  }
+}

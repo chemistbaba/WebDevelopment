@@ -1,0 +1,24 @@
+.container-fluid {
+  top: 0;
+  display: flex;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 17rem;
+  background-color: #bd5438 !important;
+}
+
+.resume ul{
+  list-style-type: none;
+
+}
+.container-fluid img {
+  height: 7%;
+  justify-content: center;
+  position: relative;
+  margin-left: 1rem;
+  margin-top: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
